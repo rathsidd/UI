@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Materials Selection </title>
+<style>
+
+h1 {
+  font-size: 2.5em;
+}
+
+.matselbtn {
+    background-color: #4E4E4F;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.matlist {
+    position: relative;
+    display: inline-block;
+}
+
+.matlist-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin:inherit;
+}
+
+.matlist-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.matlist-content a:hover {background-color: #f1f1f1}
+
+.matlist:hover .matlist-content {
+    display: block;
+}
+
+.matlist:hover .matselbtn {
+    background-color: #7C7E80;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center;">
+<h1>Materials Selection </h1>
+</div>
+
+<div style="text-align:center;">
+
+<div class="matlist">
+  <button class="matselbtn">Select the Materials Used</button>
+  <div class="matlist-content">
+    <a href="mat.htm">Atom</a>
+    <a href="AA.htm">Amino Acid</a>
+    <a href="Peptide.htm">Peptide</a>
+    <a href="2D.htm">2D Material</a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>

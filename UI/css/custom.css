@@ -1,0 +1,129 @@
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+
+	.btn-default {
+	  color: #333;
+	  background-color: #e6e6e6;
+	}
+	.btn-default:focus,
+	.btn-default.focus {
+	  color: #333;
+
+	}
+	.btn-default:hover {
+	  color: #333;
+	  background-color: #e6e6e6;
+	}
+	.btn-default:active,
+	.btn-default.active,
+	.open > .dropdown-toggle.btn-default {
+	  color: #333;
+	  background-color: #e6e6e6;
+	}
+
+
+
+.small-print {
+
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.small-print {
+	text-align: center;
+	}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.page-header {
+	position: absolute;
+	left: 0;
+	height:15%;
+	top: -5%;
+	width:100%;
+	text-align: center;
+	background-color: #b7a57a;
+}
+
+.col-md-8 {
+	left: 1%;
+	width: 30%;
+}
+
+.container {
+	width:90%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#progressBar {
+    padding: 0;
+    list-style-type: none;
+    font-family: arial;
+    font-size: 90%;
+    clear: both;
+    line-height: 1em;
+    margin: 0 -1px;
+    text-align: center;
+}
+
+#progressBar li {
+    float: left;
+    padding: 10px 30px 10px 40px;
+    background:  #06c3fa ;
+    color: #fff;
+    position: relative;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    width: 32%;
+    margin: 0 1px;
+}
+
+#progressBar li:before {
+    content: '';
+    border-left: 16px solid #fff;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#progressBar li:after {
+    content: '';
+    border-left: 16px solid  #06c3fa;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 20;
+}
+
+#progressBar li.active {
+    background:#060dfa;
+}
+
+#progressBar li.active:after {
+    border-left-color:#060dfa;
+}
+
+.map-responsive {
+	overflow: hidden;
+}
+
+table
+{
+display:none;
+}

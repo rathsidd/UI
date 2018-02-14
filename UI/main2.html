@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Materials Intelligence | GEMSEC</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/backgr.css">
+    <div class ="page-header">
+    <img id="Header" src="MATIG.jpg" alt="image error">
+    </div>
+
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse" style="background-color:#4b2e83">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+  		<li class=""><a href="HOME.html">Home</a></li>
+  		<li><a href="https://www.uwgemsec.com/about-us">About</a></li>
+  		<li><a href="CONTACT.html">Contact Us</a></li>
+  	</ul>
+  	<ul class="nav navbar-nav navbar-right">
+  		<li><a href="register.html"> Register</a></li>
+  		<li><a href="login.html"> Login</a></li>
+  	</ul>
+
+  </div>
+</nav>
+
+<body>
+  <div class="wrapper container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-4">
+        <ul id="progressBar">
+          <li> Materials</li>
+          <li class="active"> Procedure </li>
+          <li> Results </li>
+        </ul>
+        <br>
+        <br>
+        <h2> Procedure Used </h2>
+        <br>
+        <br>
+
+        <select>
+          <option value="-1"> Select the experiment peforemed </option>
+
+        </select>
+        <br>
+        <br>
+
+        <div class="wrapper container-fluid">
+          <div class="row">
+
+            <div class="form-group">
+              <label for="attmptNum">Attempt Number</label>
+              <input type="number" class="form-control" id=attemptNum placeholder="5">
+            </div>
+
+            <form class="form-inline">
+              <h3> Please enter the experimental parameters </h3>
+              <div class="form-group">
+                <label for="conc">Concentration</label>
+                <input type="conc" class="form-control" id=conc placeholder="e.g. 8.5">
+                <select>
+                  <option value="0"> &mu;M</option>
+                  <option value="1"> mM</option>
+                  <option value="2"> M </option>
+                </select>
+              </div>
+            </form>
+            <br>
+
+
+              <div class="form-group">
+                <label for="volt">Applied Voltage</label>
+                <input type="volt" class="form-control" id=volt placeholder="e.g. 2 eV">
+              </div>
+
+
+              <div class="form-group">
+                <label for="pH">pH</label>
+                <input type="pH" class="form-control" id=pH placeholder="e.g. 10">
+              </div>
+
+              <div class="form-group">
+                <label for="buffer">Buffer Used</label>
+                <input type="buffer" class="form-control" id=buffer placeholder="e.g. pH 5 Acetate Buffer">
+              </div>
+
+            </div>
+          </div>
+
+
+          <a href="main3.html"><button type="submit" class="btn btn-default"> Next </button></a>
+
+          <script src="js/jquery-1.11.3.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+      	  <script src="js/ie10-viewport-bug-workaround.js"></script>
+       	  <script src="js/holder.min.js"></script>
+
+      </body>
+
+      </html>
